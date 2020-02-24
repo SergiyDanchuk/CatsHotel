@@ -2,6 +2,73 @@
 @import 'global';
 @import 'fonts';
 
+// start header, footer
+.header-footer__box{
+    margin: 12px 0 12px;
+    font-weight: 600;
+}
+.header-footer__box,
+.header-footer__main ul,
+.footer__copywrite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-footer__main ul {
+    li+li{
+        margin-left: 30px;
+    }
+}
+.footer__wrapper{
+    border-top: 1px solid #efefef;
+}
+.footer__copywrite{
+    font-weight: 400;
+    font-size: 14px;
+    color: #8f8f8f;
+    margin: 20px 0 20px;
+    .copy{
+        padding-left: 14px;
+        position: relative;
+        &::before{
+            content: url(../img/copy.svg);
+            position: absolute;
+            left: 0;
+        }
+    }
+}
+// end header, footer
+
+//start general
+.general{
+    min-height: 504px;
+    background-image: url(../img/general-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: auto;
+    .general__city{
+        display: inline-block;
+        margin-top: 153px;
+    }
+    h1{
+        font-family: 'Rubik', sans-serif;
+        font-size: 62px;
+        font-weight: 700;
+        display: block;
+        line-height: 62px;
+        margin: 10px 0 20px;
+    }
+    .general__description{
+        font-weight: 500;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+}
+//end general
 
 
 
