@@ -19,7 +19,7 @@
                 <div class="container">
                     <div class="header-footer__box">
                         <div class="header-footer__logo">
-                            <img src="img/logo.svg" alt="Logo">
+                            <a href="#"><img src="img/logo.svg" alt="Logo"></a>
                         </div>
                         <nav class="header-footer__main">
                             <ul>
@@ -38,12 +38,121 @@
                     <span class="general__city">Санкт-Петербург</span>
                     <h1>Котейка</h1>
                     <span class="general__description">Уютная гостиница для котов и кошек</span>
-                    <button class="default__btn">Забронировать</button>
+                    <button class="general__btn">Забронировать</button>
                 </div>
             </section>
             <section class="advantages">
                 <div class="container">
-
+                    <h2 class="default__title">Почему мы?</h2>
+                    <div class="advantages__wrapper">
+                        <div class="advantages__card">
+                            <div class="img-circle">
+                                <img src="img/temperature.svg" alt="Комфортная температура">
+                            </div>
+                            <h3>Комфортная температура</h3>
+                            <p>Во всех номерах поддерживается комфортная температура в пределах
+                                23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру.
+                            </p>
+                        </div>
+                        <div class="advantages__card">
+                            <div class="img-circle">
+                                <img src="img/cam.svg" alt="Видеонаблюдение">
+                            </div>
+                            <h3>Видеонаблюдение</h3>
+                            <p>Мы предоставляем доступ в нашу систему. Вы сможете следить
+                                за своим питомцем со своего смартфона или компьютера.
+                            </p>
+                        </div>
+                        <div class="advantages__card">
+                            <div class="img-circle">
+                                <img src="img/taxi.svg" alt="Услуги Зоотакси">
+                            </div>
+                            <h3>Услуги Зоотакси</h3>
+                            <p>Мы приедем за вашим питомцем в любой район Санкт-Петербурга.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__wrapper">
+                        <div class="advantages__card">
+                            <div class="img-circle">
+                                <img src="img/corm.svg" alt="Комфортная температура">
+                            </div>
+                            <h3>Сбалансированное&nbsp;питание</h3>
+                            <p>Вы можете привезти свой кормили доверить рацион своего питомца нашим профессионалам.</p>
+                        </div>
+                        <div class="advantages__card">
+                            <div class="img-circle">
+                                <img src="img/cat.svg" alt="Видеонаблюдение">
+                            </div>
+                            <h3>Ежедневные прогулки</h3>
+                            <p>По вашему желанию мы выгуливаем вашего питомца два раза в день
+                                на специализированной закрытой территории.
+                            </p>
+                        </div>
+                        <div class="advantages__card">
+                            <div class="img-circle">
+                                <img src="img/man.svg" alt="Услуги Зоотакси">
+                            </div>
+                            <h3>Лучшие ветеринары</h3>
+                            <p>В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае
+                                необходимости.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="hotel-room">
+                <div class="container">
+                    <h2 class="default__title">Номера</h2>
+                    <div id="hotel-room__slider" class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slide__wrapper">
+                                    <img src="img/hotel-room/cat1.jpg" alt="cat">
+                                    <div class="slide__box">
+                                        <h3>Эконом плюс</h3>
+                                        <ul>
+                                            <li>Площадь - 0,90 м2</li>
+                                            <li>Размеры (ШхГхВ) — 90х100х180 см</li>
+                                            <li>Цена за сутки: 200₽</li>
+                                        </ul>
+                                        <button class="default__btn">Забронировать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide__wrapper">
+                                    <img src="img/hotel-room/cat2.jpg" alt="cat">
+                                    <div class="slide__box">
+                                        <h3>Комфорт</h3>
+                                        <ul>
+                                            <li>Площадь - 1,13 м2</li>
+                                            <li>Размеры (ШхГхВ) - 100х125х180 см</li>
+                                            <li>Цена за сутки: 250₽</li>
+                                        </ul>
+                                        <button class="default__btn">Забронировать</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slide__wrapper">
+                                    <img src="img/hotel-room/cat3.jpg" alt="cat">
+                                    <div class="slide__box">
+                                        <h3>Сьют</h3>
+                                        <ul>
+                                            <li>Площадь - 1,56 м2</li>
+                                            <li>Размеры (ШхГхВ) - 125х125х180 см</li>
+                                            <li>Цена за сутки: 350₽</li>
+                                        </ul>
+                                        <button class="default__btn">Забронировать</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </section>
         </div>
@@ -51,7 +160,7 @@
             <div class="container">
                 <div class="header-footer__box">
                     <div class="header-footer__logo">
-                        <img src="img/logo.svg" alt="Logo">
+                        <a href="#"><img src="img/logo.svg" alt="Logo"></a>
                     </div>
                     <nav class="header-footer__main">
                         <ul>
